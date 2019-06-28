@@ -10,20 +10,14 @@ public class Questao11 {
 
 		int num2 = Teclado.lerInt("Digite a potencia: ");
 
+		
 		int resultado = 0;
-
-		if (num1 == 0) {
-			resultado = 1;
-		} else {
-
-			for (int i = 0; i < num2; i++) {
-
-				resultado *= num1;
-			}
+		
+		for (int i = 1; i <= num2; i++) {
+			
+			resultado = resultado + (num1 * num1);
 		}
-
 		System.out.println(resultado);
-
 	}
 
 }
