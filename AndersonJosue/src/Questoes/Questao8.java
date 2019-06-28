@@ -1,3 +1,6 @@
+package Questoes;
+
+import br.com.util.Teclado;
 
 public class Questao8 {
 
