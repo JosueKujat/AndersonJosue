@@ -4,25 +4,23 @@ public class Questao10Alternativa {
 
 	public static void main(String[] args) {
 
-		int num = 3;
+		int num1 = 3;
 
-		/*	for (int i = 0; i <= 15; i++) {
+		int num2 = 15;
 
+		int resultado = 1;
+
+		for (int i = 0; i <= num2; i++) {
+			
 			if (i == 0) {
-				System.out.println(num + " elevado à " + i + " = 0");
-
-			} else {*/
-				
-				int total = 0;
-
-				for (int i = 0; i < num; i++) {
-
-					total *= num;
-					i++;
-
-					System.out.println(num + " elevado à " + i + " = " + total);
-				}
-
+				System.out.println(num1 + " elevado a " + i + " = 0");
+				i++;
 			}
+
+			resultado = resultado * num1;
+			System.out.println(num1 + " elevado a " + i + " = " + resultado);
 		}
-	
+		
+
+	}
+}

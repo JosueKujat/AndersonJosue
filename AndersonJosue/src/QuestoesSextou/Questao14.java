@@ -1,6 +1,6 @@
 package QuestoesSextou;
 
-public class Questoa14 {
+public class Questao14 {
 
 	public static void main(String[] args) {
 		int cont = 1;
